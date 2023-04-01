@@ -3,7 +3,7 @@
 [![LEGENDBOTSPAM]([https://te.legra.ph/file/75d174dd53b3e5755d033.jpg](https://github.com/BROKEN_X_SPAM/BOTSPAM)
 
 <h1 align="center">
-<b> 『ẞRøKenXSpâm』 </b>
+<b> 『ẞrøKenXSpâm』 </b>
 </h1>
 
 <h6 align="center">
