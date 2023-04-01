@@ -1,9 +1,9 @@
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=LEGEND-AI&repo=BOTSPAM&theme=lite)
 
-[![LEGENDBOTSPAM](https://graph.org/file/89ed7d3a2bd8aa2c61385.jpg)](https://github.com/LEGEND-AI/BOTSPAM)
+[![LEGENDBOTSPAM]([https://te.legra.ph/file/75d174dd53b3e5755d033.jpg](https://github.com/BROKEN_X_SPAM/BOTSPAM)
 
 <h1 align="center">
-<b> 『ẞø†Spâm』 </b>
+<b> 『ẞRøKenXSpâm』 </b>
 </h1>
 
 <h6 align="center">
@@ -21,15 +21,15 @@
 
 ## Status Of Bot 
 <p align="left">
-<a href="https://github.com/LEGEND-AI/BOTSPAM/network/members"><img src="https://img.shields.io/github/forks/LEGEND-AI/BOTSPAM?label=Forks&logoColor=Black&style=social"></a><p align="left"><a href="https://github.com/LEGEND-AI/BOTSPAM/stargazers"><img src="https://img.shields.io/github/stars/LEGEND-AI/BOTSPAM?logoColor=Blue&style=social"></a><p align="left"><a href="https://github.com/LEGEND-AI/BOTSPAM"></a><p align="left"><a href="https://github.com/LEGEND-AI/BOTSPAM?"></a>
+<a href="https://github.com/broken_x_spam/BOTSPAM/network/members"><img src="https://img.shields.io/github/forks/LEGEND-AI/BOTSPAM?label=Forks&logoColor=Black&style=social"></a><p align="left"><a href="https://github.com/LEGEND-AI/BOTSPAM/stargazers"><img src="https://img.shields.io/github/stars/LEGEND-AI/BOTSPAM?logoColor=Blue&style=social"></a><p align="left"><a href="https://github.com/LEGEND-AI/BOTSPAM"></a><p align="left"><a href="https://github.com/LEGEND-AI/BOTSPAM?"></a>
   
 -------
 
 ## Telegram 🏪
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/LegendBotSpam)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-brightgreen)](https://t.me/theBROKEN_X_SUPPORT)
 
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/LegendBot_AI)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/theBROKENXD)
  
 -------
 
