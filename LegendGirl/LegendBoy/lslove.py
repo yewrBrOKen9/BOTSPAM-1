@@ -1,7 +1,7 @@
 import asyncio
 from random import choice
 
-from LegendBS.love import loveraid
+from LegendBS.love import loveraid as luvraid
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
@@ -49,7 +49,7 @@ async def lovaid(Legend: Client, e: Message):
         for i in range(1, 26):
             lol = globals()[f"Client{i}"]
             if lol is not None:
-                await lol.send_message(chat.id, f"{user.mention} {choice(loveraid)}")
+                await lol.send_message(chat.id, f"{user.mention} {choice(luvraid)}")
                 await asyncio.sleep(0.3)
     if LOG_CHANNEL:
         try:
@@ -61,7 +61,7 @@ async def lovaid(Legend: Client, e: Message):
             print(a)
 
 
-users = []
+USERS = []
 unlimited = False
 
 
@@ -70,8 +70,7 @@ unlimited = False
     & filters.command(["loverraid", "lovereplyraid"], prefixes=HANDLER)
 )
 async def lovereplyraid(Legend: Client, e: Message):
-    global users
-    global unlimited
+    global USERS
     try:
         lol = e.text.split(" ", 1)[1].split(" ", 1)
     except IndexError:
@@ -83,10 +82,9 @@ async def lovereplyraid(Legend: Client, e: Message):
         if user_.isnumeric():
             user_ = int(user_)
         if not user_:
-            await e.reply_text(
+            return await e.reply_text(
                 "I don't know who you're talking about, you're going to need to specify a user.!"
             )
-            return
         try:
             user = await Legend.get_users(user_)
         except (TypeError, ValueError):
@@ -95,17 +93,15 @@ async def lovereplyraid(Legend: Client, e: Message):
             )
             return
     else:
-        await e.reply_text(
+        return await e.reply_text(
             "I don't know who you're talking about, you're going to need to specify a user...!"
         )
-        return
-    if int(user.id) in users:
-        await e.reply_text("User already in Raid list!")
-        return
-    unlimited = True
-    users.append(user.id)
+    if int(user.id) in USERS:
+        return await e.reply_text("User already in Raid list!")
+    USERS.append(user.id)
     mention = user.mention
     await e.reply_text(f"Love Reply Raid Activated On User {mention}")
+
     if LOG_CHANNEL:
         try:
             await Legend.send_message(
@@ -121,8 +117,7 @@ async def lovereplyraid(Legend: Client, e: Message):
     & filters.command(["lovedraid", "lovedreplyraid"], prefixes=HANDLER)
 )
 async def lovedraid(Legend: Client, e: Message):
-    global users
-    global unlimited
+    global USERS
     try:
         lol = e.text.split(" ", 1)[1].split(" ", 1)
     except IndexError:
@@ -134,29 +129,25 @@ async def lovedraid(Legend: Client, e: Message):
         if user_.isnumeric():
             user_ = int(user_)
         if not user_:
-            await e.reply_text(
+            return await e.reply_text(
                 "I don't know who you're talking about, you're going to need to specify a user.!"
             )
-            return
         try:
             user = await Legend.get_users(user_)
         except (TypeError, ValueError):
-            await message.reply_text(
+            return await message.reply_text(
                 "Looks like I don't have control over that user, or the ID isn't a valid one. If you reply to one of their messages, I'll be able to interact with them."
             )
-            return
     else:
-        await e.reply_text(
+        return await e.reply_text(
             "I don't know who you're talking about, you're going to need to specify a user...!"
         )
-        return
-    if int(user.id) not in users:
-        await e.reply_text("User not in Raid list!")
-        return
-    unlimited = False
-    users.remove(user.id)
+    if int(user.id) not in USERS:
+        return await e.reply_text("User not in Raid list!")
+    USERS.remove(user.id)
     mention = user.mention
     await e.reply_text(f"Love Reply Raid Deactivated Successfully On User {mention}")
+
     if LOG_CHANNEL:
         try:
             await Legend.send_message(
@@ -167,15 +158,22 @@ async def lovedraid(Legend: Client, e: Message):
             print(a)
 
 
+@Client.on_message(filters.all)
+async def lactivate(Legend: Client, msg: Message):
+    global USERS
+    if int(msg.from_user.id) in USERS:
+        await msg.reply_text(choice(luvraid))
+
+
 @Client.on_message(
     filters.user(sudos)
     & filters.command(["loverlist", "loveraidlist"], prefixes=HANDLER)
 )
 async def loverllist(Legend: Client, e: Message):
-    global users
+    global USERS
     _reply = "**Love Raid users list - Legend Bot Spam** \n\n"
-    if len(users) > 0:
-        for x in users:
+    if len(USERS) > 0:
+        for x in USERS:
             try:
                 user = await Legend.get_users(x)
                 _reply += f" ✨ Users: {user.mention} \n"
@@ -185,19 +183,3 @@ async def loverllist(Legend: Client, e: Message):
         await e.reply_text("Not yet!")
         return
     await e.reply_text(_reply)
-
-
-@Client.on_message(filters.all)
-async def watcher(Legend: Client, msg: Message):
-    global users
-    global unlimited
-    user = msg.chat
-    while unlimited == True:
-        if int(user.id) in users:
-            lmao = msg.reply_to_message
-            for i in range(1, 26):
-                lol = globals()[f"Client{i}"]
-                if lol is not None:
-                    await lol.send_message(
-                        user.id, f"{lmao.from_user.mention} {choice(loveraid)}"
-                    )
