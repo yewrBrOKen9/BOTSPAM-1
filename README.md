@@ -21,7 +21,7 @@
 
 ## Status Of Bot 
 <p align="left">
-<a href="https://github.com/broken_x_spam/BOTSPAM/network/members"><img src="https://img.shields.io/github/forks/LEGEND-AI/BOTSPAM?label=Forks&logoColor=Black&style=social"></a><p align="left"><a href="https://github.com/LEGEND-AI/BOTSPAM/stargazers"><img src="https://img.shields.io/github/stars/LEGEND-AI/BOTSPAM?logoColor=Blue&style=social"></a><p align="left"><a href="https://github.com/LEGEND-AI/BOTSPAM"></a><p align="left"><a href="https://github.com/LEGEND-AI/BOTSPAM?"></a>
+<a href="https://github.com/broken_x_spam/BOTSPAM/network/members"><img src="https://img.shields.io/github/forks/broken_x_spam/BOTSPAM?label=Forks&logoColor=Black&style=social"></a><p align="left"><a href="https://github.com/broken_x_spam/BOTSPAM/stargazers"><img src="https://img.shields.io/github/stars/broken_x_spam/BOTSPAM?logoColor=Blue&style=social"></a><p align="left"><a href="https://github.com/broken_x_spam/BOTSPAM"></a><p align="left"><a href="https://github.com/broken_x_spam/BOTSPAM?"></a>
   
 -------
 
