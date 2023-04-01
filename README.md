@@ -197,7 +197,7 @@ Commands | Description
 </details>
 
 
-> Made with 💕 by [@TeamLegendXD](https://t.me/TeamLegendXD).    
+> Made with 💕 by [@Xd_BROKEN]    
 
 
 
