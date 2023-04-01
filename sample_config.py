@@ -43,9 +43,9 @@ START_MESSAGE = getenv(
     "This is a Powerful Bot Spam Made By [Team Legend](https://t.me/TeamLegendXD)",
 )
 
-PING_PIC = getenv("PING_PIC", "https://graph.org/file/8b665536aee97ee58f5ca.jpg")
+PING_PIC = getenv("PING_PIC", "https://te.legra.ph/file/4936142e0fec18dafa079.jpg")
 
-START_PIC = getenv("START_PIC", "https://graph.org/file/01d5c1877d6aabdd99c25.jpg")
+START_PIC = getenv("START_PIC", "https://te.legra.ph/file/4936142e0fec18dafa079.jpg ")
 
 LOG_CHANNEL = getenv("LOG_CHANNEL", None)
 
