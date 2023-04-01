@@ -1,4 +1,4 @@
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=LEGEND-AI&repo=BOTSPAM&theme=lite)
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=yewrBrOKen9&repo=BROKEN_X_SPAM&theme=lite)
 
 [![LEGENDBOTSPAM](https://te.legra.ph/file/75d174dd53b3e5755d033.jpg)](https://github.com/yewrBrOKen9/BROKEN_X_SPAM)
 
@@ -11,7 +11,7 @@
 </h6>
 
 
-![](https://img.shields.io/badge/BotSpam→V1.0-blue)
+![](https://img.shields.io/badge/BROKEN_X_SPAM→V1.0-blue)
 
 ![Branch](https://img.shields.io/badge/Branch-main-white?&style=social&logo=github)
 
