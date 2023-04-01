@@ -1,6 +1,6 @@
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=LEGEND-AI&repo=BOTSPAM&theme=lite)
 
-[![LEGENDBOTSPAM](https://te.legra.ph/file/75d174dd53b3e5755d033.jpg)](https://github.com/BROKEN_X_SPAM/BOTSPAM)
+[![LEGENDBOTSPAM](https://te.legra.ph/file/75d174dd53b3e5755d033.jpg)](https://github.com/yewrBrOKen9/BROKEN_X_SPAM)
 
 <h1 align="center">
 <b> 『ẞrøKenXSpâm』 </b>
@@ -21,7 +21,7 @@
 
 ## Status Of Bot 
 <p align="left">
-<a href="https://github.com/broken_x_spam/BOTSPAM/network/members"><img src="https://img.shields.io/github/forks/broken_x_spam/BOTSPAM?label=Forks&logoColor=Black&style=social"></a><p align="left"><a href="https://github.com/broken_x_spam/BOTSPAM/stargazers"><img src="https://img.shields.io/github/stars/broken_x_spam/BOTSPAM?logoColor=Blue&style=social"></a><p align="left"><a href="https://github.com/broken_x_spam/BOTSPAM"></a><p align="left"><a href="https://github.com/broken_x_spam/BOTSPAM?"></a>
+<a href="https://github.com/yewrBrOKen9/BROKEN_X_SPAM/network/members"><img src="https://img.shields.io/github/forks/yewrBrOKen9/BROKEN_X_SPAM?label=Forks&logoColor=Black&style=social"></a><p align="left"><a href="https://github.com/yewrBrOKen9/BROKEN_X_SPAM/stargazers"><img src="https://img.shields.io/github/stars/yewrBrOKen9/BROKEN_X_SPAM?logoColor=Blue&style=social"></a><p align="left"><a href="https://github.com/yewrBrOKen9/BROKEN_X_SPAM"></a><p align="left"><a href="https://github.com/yewrBrOKen9/BROKEN_X_SPAM?"></a>
   
 -------
 
@@ -35,7 +35,7 @@
 
 ## YouTube 📺
 
-[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCgv4QgLLpyHVWtBiTpr5srg?label=TeamLegend&style=social)](https://youtube.com/@TeamLegendBot)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCgv4QgLLpyHVWtBiTpr5srg?label=TeamLegend&style=social)](https://youtube.com/@TeambrokenBot)
 
 [![YouTube Video Views](https://img.shields.io/youtube/views/1A4xVEfyxYU?label=Intro+•&style=social)](https://youtu.be/1A4xVEfyxYU)
 
