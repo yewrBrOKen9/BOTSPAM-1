@@ -1,6 +1,6 @@
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=LEGEND-AI&repo=BOTSPAM&theme=lite)
 
-[![LEGENDBOTSPAM]([https://te.legra.ph/file/75d174dd53b3e5755d033.jpg)](https://github.com/BROKEN_X_SPAM/BOTSPAM)
+[![LEGENDBOTSPAM](https://te.legra.ph/file/75d174dd53b3e5755d033.jpg)](https://github.com/BROKEN_X_SPAM/BOTSPAM)
 
 <h1 align="center">
 <b> 『ẞrøKenXSpâm』 </b>
