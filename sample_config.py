@@ -43,7 +43,7 @@ START_MESSAGE = getenv(
     "This is a Powerful Bot Spam Made By [Team BROKEN](https://t.me/team_broken)",
 )
 
-PING_PIC = getenv("PING_PIC", "https://te.legra.ph/file/e9e8d20ae63493882598c.jpg")
+PING_PIC = getenv("PING_PIC", "https://te.legra.ph/file/6990fd3f3682dc59bf8a8.jpg")
 
 START_PIC = getenv("START_PIC", "https://te.legra.ph/file/75d174dd53b3e5755d033.jpg")
 
