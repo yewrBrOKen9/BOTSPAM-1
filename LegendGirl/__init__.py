@@ -4,7 +4,7 @@ from .Config import *
 from .core import *
 
 version = "v1"
-group_username = "@LegendBotSpam"
+group_username = "@theBROKEN_X_SUPPORT"
 start_time = time.time()
 # Sudo Users
 sudos = []
