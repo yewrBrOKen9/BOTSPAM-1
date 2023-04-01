@@ -1,7 +1,7 @@
 {
     "name": "LegendSpam",
-    "description": "Spamming Bot Made By LegendBoy",
-    "logo": "https://te.legra.ph/file/315ec5fe03f2a612139b3.jpg",
+    "description": "Spamming Bot Made By BrokenBoy",
+    "logo": "https://te.legra.ph/file/1d90708fc7ba63cef8d1e.jpg",
     "keywords": [
         "telegram",
         "pyrogram",
@@ -9,9 +9,9 @@
         "legendboy",
         "Botspam"
     ],
-    "repository": "https://github.com/LEGEND-AI/BOTSPAM",
-    "website": "https://t.me/LegendBot_Owner",
-    "success_url": "https://t.me/LegendBot_Owner",
+    "repository": "https://github.com/yewrbroken9/broken_x_spam",
+    "website": "https://t.me/theBROKEN_X_SUPPORT",
+    "success_url": "https://t.me/Dead_HeartLess",
     "env": {       
         "ENV": {
             "description": "dont edit this",
