@@ -62,6 +62,7 @@ async def lovaid(Legend: Client, e: Message):
 
 
 users = []
+unlimited = False
 
 
 @Client.on_message(
@@ -70,6 +71,7 @@ users = []
 )
 async def lovereplyraid(Legend: Client, e: Message):
     global users
+    global unlimited
     try:
         lol = e.text.split(" ", 1)[1].split(" ", 1)
     except IndexError:
@@ -100,6 +102,7 @@ async def lovereplyraid(Legend: Client, e: Message):
     if int(user.id) in users:
         await e.reply_text("User already in Raid list!")
         return
+    unlimited = True
     users.append(user.id)
     mention = user.mention
     await e.reply_text(f"Love Reply Raid Activated On User {mention}")
@@ -119,6 +122,7 @@ async def lovereplyraid(Legend: Client, e: Message):
 )
 async def lovedraid(Legend: Client, e: Message):
     global users
+    global unlimited
     try:
         lol = e.text.split(" ", 1)[1].split(" ", 1)
     except IndexError:
@@ -149,6 +153,7 @@ async def lovedraid(Legend: Client, e: Message):
     if int(user.id) not in users:
         await e.reply_text("User not in Raid list!")
         return
+    unlimited = False
     users.remove(user.id)
     mention = user.mention
     await e.reply_text(f"Love Reply Raid Deactivated Successfully On User {mention}")
@@ -185,12 +190,14 @@ async def loverllist(Legend: Client, e: Message):
 @Client.on_message(filters.all)
 async def watcher(Legend: Client, msg: Message):
     global users
+    global unlimited
     user = msg.chat
-    if int(user.id) in users:
-        lmao = msg.reply_to_message
-        for i in range(1, 26):
-            lol = globals()[f"Client{i}"]
-            if lol is not None:
-                await lol.send_message(
-                    user.id, f"{lmao.from_user.mention} {choice(loveraid)}"
-                )
+    while unlimited == True:
+        if int(user.id) in users:
+            lmao = msg.reply_to_message
+            for i in range(1, 26):
+                lol = globals()[f"Client{i}"]
+                if lol is not None:
+                    await lol.send_message(
+                        user.id, f"{lmao.from_user.mention} {choice(loveraid)}"
+                    )
