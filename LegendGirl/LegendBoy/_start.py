@@ -1,6 +1,5 @@
 from LegendBS.start import start_cmd
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, Message
 
 from LegendGirl.Config import *
 
@@ -17,7 +16,6 @@ async def start(Legend: Client, message: Message):
                     message.chat.id,
                     START_PIC,
                     caption=START_MESSAGE,
-                    reply_markup=InlineKeyboardMarkup(await start_cmd(Legend)),
                 )
     elif ".mp4" in START_PIC.lower():
         for i in range(1, 26):
@@ -27,7 +25,6 @@ async def start(Legend: Client, message: Message):
                     message.chat.id,
                     START_PIC,
                     caption=START_MESSAGE,
-                    reply_markup=InlineKeyboardMarkup(await start_cmd(Legend)),
                 )
     else:
         for i in range(1, 26):
